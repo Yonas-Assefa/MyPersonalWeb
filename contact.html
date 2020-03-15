@@ -36,13 +36,16 @@
                         <br>
                         <p><h2>Contact form</h2></p>
                         <form action="mailto:se.yonas.assefa@gmail.com" method="POST" enctype="utf-8">
-                               <label for="fname">Your name (required)</label>
-                               <p><input type="text" id="fname" type="text" name="First name" placeholder="your name" required pattern="[A-Za-z]{3}" title="please enter only alphabetic characters"></p>
-
-                               <label for="fname">Your name (required)</label>
-                               <p><input type="text" id="fname" type="text" name="First name" placeholder="your name" required pattern="[A-Za-z]{3}" title="please enter only alphabetic characters"></p>
+                               <P><label for="fname">Your name (required)</label></P>
+                               <P><input width="500" type="text" id="fname" type="text" name="First name"  required pattern="[A-Za-z]{3}" title="please enter only alphabetic characters"></P>
+                               
 
 
+                               <P><label for="email">Email(required)</label></P>
+                               <P><input type="email" id="email" name="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></P>
+                               
+                                <P><label for="fname">Subject</label></P>
+                                <p><input width="500" type="text" id="fname" type="text" name="subject"  required pattern="[A-Za-z]{3}" title="please enter only alphabetic characters"></p>
 
                         </form>
                         
