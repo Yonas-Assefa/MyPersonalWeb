@@ -37,7 +37,7 @@
                         <p><h2>Contact form</h2></p>
                         <form action="mailto:se.yonas.assefa@gmail.com" method="POST" enctype="utf-8">
                                <P><label for="fname">Your name (required)</label></P>
-                               <P><input width="500" type="text" id="fname" type="text" name="First name"  required pattern="[A-Za-z]{3}" title="please enter only alphabetic characters"></P>
+                               <P><input cols ="75" type="text" id="fname" type="text" name="First name"  required pattern="[A-Za-z]{3}" title="please enter only alphabetic characters"></P>
                                
 
 
@@ -45,8 +45,23 @@
                                <P><input type="email" id="email" name="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></P>
                                
                                 <P><label for="fname">Subject</label></P>
-                                <p><input width="500" type="text" id="fname" type="text" name="subject"  required pattern="[A-Za-z]{3}" title="please enter only alphabetic characters"></p>
+                                <p><input  type="text" id="fname" type="text" name="subject"  required pattern="[A-Za-z]{3}" title="please enter only alphabetic characters"></p>
 
+                            
+                                <table cellspacing ="7">
+                                    <tr>
+                                        <td>Your message 
+                                            <textarea name="comment" id="comment" cols="75" rows="20"></textarea>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            
+                                            <p align ="center"><button>send</button></p>
+                                        </td>
+                                    </tr>
+                                
+                                </table>
                         </form>
                         
                     </td>
